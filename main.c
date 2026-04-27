@@ -154,7 +154,7 @@ void loadFromFile() {
             temp->next = newNode;
         }
     }
-
+     // closing file 
     fclose(file);
 }
 
